@@ -1,0 +1,77 @@
+* {
+  text-align: center;
+  font-family: Calibri, sans-serif;
+}
+
+body {
+  margin: 60px 10px 100px 10px;
+  background-image: url(/kuvat/snow_background.jpg);
+  background-attachment: fixed;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #0ba4b8;
+  left: 0;
+}
+
+.navlink {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: large;
+}
+
+a {
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+}
+
+#footerbar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0ba4b8;
+  text-align: center;
+}
+
+#footerbar ul {
+  list-style-type: none;
+}
+
+#footerbar ul li {
+  display: block;
+  text-decoration: none;
+  font-size: large;
+  color: white;
+  font-size: large;
+}
+
+#footerbar ul li a {
+  background-color: 0bb84283;
+  text-decoration: none;
+  font-size: large;
+}
+
+.leipä {
+  text-shadow: 1px 1px 2px #ffffff;
+}
+
+.leipä p {
+  font-size: large;
+}
+
+figure img {
+  max-height: 750px;
+}
+
